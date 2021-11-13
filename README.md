@@ -14,10 +14,14 @@ This repo contains additional material for the RAID 2021 paper [The Evolution of
 
 # Crawler
 For scanning, primarily three different scripts are used, depending on which list is used:
+	
 	1. Majestics: code/crawling_dns-majestics.py
+	
 	2. Alexa:     code/crawling_dns.py
+	
 	3. Tranco:    code/crawling_dns-tranco.py
     
+# Results    
 The results are stored in the /Results directory. Furthermore, the DNS entries are examined and then written to a MySQL database.  
 
 The generated DKIM selector list is: code/dictionary.lst
